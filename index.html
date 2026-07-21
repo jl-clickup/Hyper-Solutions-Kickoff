@@ -47,6 +47,11 @@
     width: 100%;
     align-items: start;
     }
+/* ADD THESE LINES TO FIX THE DESKTOP GRID */
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .grid-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
     .card{background:#fff;border:1px solid var(--cu-line);border-radius:26px;padding:22px;box-shadow:0 12px 32px rgba(15,15,30,.05)}
     .soft-bg{background:radial-gradient(circle at top right,rgba(0,145,255,.12),transparent 25%),radial-gradient(circle at top left,rgba(255,2,240,.10),transparent 25%),var(--cu-surface-tint)}
     .pill{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-family:"Sometype Mono",Consolas,monospace}
