@@ -78,6 +78,22 @@
     .placeholder-box .icon{font-size:64px;line-height:1;margin-bottom:18px}
     .placeholder-box h3{font-size:34px;letter-spacing:-.03em;margin-bottom:10px}
     .placeholder-box p{font-size:18px;line-height:1.6;color:#5B5E78;max-width:760px}
+    .ier-diagram {
+    width: 100%;
+    max-height: 620px;
+    object-fit: contain;
+    border-radius: 20px;
+    border: 1px solid #E5E7F2;
+    background: white;
+    box-shadow: 0 12px 32px rgba(15,15,30,.08);
+    }
+    .ier-wrapper{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    }
     .timeline-shell{margin-top:18px;padding:24px;border-radius:28px;background:linear-gradient(180deg,#FFFFFF,#F8FAFF);border:1px solid var(--cu-line)}
     .milestones{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;position:relative;z-index:1}
     .timeline-line{height:3px;background:linear-gradient(90deg,rgba(102,71,240,.18),rgba(0,145,255,.35),rgba(255,2,240,.18));border-radius:999px;margin:10px 20px 18px}
@@ -180,11 +196,12 @@
 <h2>IER diagram placeholder</h2>
 <p class="subtitle">A placeholder has been left here so the approved Hyper Solutions IER / process mapping artifact can be dropped in without changing the rest of the deck layout.</p>
 <div class="placeholder-shell">
-<div class="placeholder-box">
-<div class="icon">🧩</div>
-<h3>Insert Hyper Solutions IER diagram here</h3>
-<p>Recommended placement: full-width process map or architecture visual sized to this panel. Keep the existing slide shell and replace this dashed placeholder box when the final diagram is ready.</p>
-</div>
+    <div class="ier-wrapper">
+        <img
+            src="IER-agent-mapping.png"
+            alt="Hyper Solutions IER Diagram"
+            class="ier-diagram">
+    </div>
 </div>
 <div class="footer"><span>Hyper Solutions</span><span>05</span></div>
 </div>
