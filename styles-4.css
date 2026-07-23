@@ -17,7 +17,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#eef1fb;color:var(--cu-ink);font-family:Inter,Arial,sans-serif}
 body{padding:28px 18px 64px}
-.deck{max-width:1240px;margin:0 auto;display:grid;gap:28px}
+.deck{max-width:1480px;margin:0 auto;display:grid;gap:28px}
 .slide{width:100%;height:clamp(760px,56vw,960px);background:var(--cu-surface);border:1px solid rgba(102,71,240,.10);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;position:relative;page-break-after:always}
 .slide-shell{position:relative;height:100%;padding:34px 42px 34px;display:flex;flex-direction:column;overflow:hidden}
 .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px}
