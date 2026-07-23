@@ -142,8 +142,9 @@ margin-bottom: 20px;
 }
 }
 
+/* .cover-logo-image{display:block;max-width:420px;width:min(32vw,420px);height:auto;filter:drop-shadow(0 12px 28px rgba(15,15,30,.12))} */
 .hyper-logo {
-height: 52px;
+height: 34px;
 width: auto;
 display: block;
 object-fit: contain;
